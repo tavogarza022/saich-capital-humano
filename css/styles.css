@@ -370,6 +370,10 @@ h1, h2, h3, h4, h5, h6, .display-4, .display-3 {
     padding-top: 0.5rem !important;
     padding-bottom: 0.5rem !important;
   }
+
+  .footer-clean .footer-heading {
+    margin-bottom: 0.75rem;
+  }
   
   /* SVG Shapes mobile */
   .shape-1 { width: 150px; }
