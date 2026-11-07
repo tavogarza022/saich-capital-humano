@@ -1,7 +1,7 @@
 :root {
   --primary-color: #001F3F; /* Azul Marino Profundo */
-  --accent-color: #229954; /* Verde corporativo más oscuro */
-  --accent-alt: #4A90E2; /* Azul Claro Elegante para Index */
+  --accent-color: #157347; /* Verde corporativo más oscuro (contraste WCAG AA) */
+  --accent-alt: #1D5FB8; /* Azul corporativo para Index (contraste WCAG AA) */
   --bg-color: #F8F9FA; /* Off-white cálido elegante */
   --card-bg: #FFFFFF;
   --text-dark: #1E2B3C; /* Azul grisáceo muy oscuro */
@@ -295,7 +295,8 @@ h1, h2, h3, h4, h5, h6, .display-4, .display-3 {
   color: var(--text-muted);
 }
 
-.footer-clean h5 {
+.footer-clean h5,
+.footer-clean .footer-heading {
   color: var(--text-dark);
   font-size: 1.1rem;
   margin-bottom: 1.5rem;
@@ -374,4 +375,36 @@ h1, h2, h3, h4, h5, h6, .display-4, .display-3 {
   .shape-1 { width: 150px; }
   .shape-2 { width: 200px; }
   .shape-3 { width: 100px; }
+}
+
+/* FAQ Corporativo (GEO / SEO) */
+.faq-clean .accordion-item {
+  border: 1px solid var(--border-color);
+  border-radius: 12px !important;
+  overflow: hidden;
+  margin-bottom: 0.875rem;
+  background-color: #ffffff;
+}
+
+.faq-clean .accordion-button {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 600;
+  color: var(--text-dark);
+  background-color: #ffffff;
+  box-shadow: none;
+  padding: 1.15rem 1.5rem;
+}
+
+.faq-clean .accordion-button:not(.collapsed) {
+  color: var(--primary-color);
+  background-color: #F8FAFC;
+  box-shadow: none;
+}
+
+.faq-clean .accordion-body {
+  color: var(--text-muted);
+  padding: 0 1.5rem 1.25rem;
+  line-height: 1.65;
+}
+
 
