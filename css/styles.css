@@ -158,6 +158,28 @@ h1, h2, h3, h4, h5, h6, .display-4, .display-3 {
   color: var(--text-dark);
 }
 
+.eyebrow-pill {
+  display: inline-block;
+  padding: 0.4rem 1rem;
+  margin-bottom: 1.25rem;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  line-height: 1.4;
+  text-transform: uppercase;
+  color: var(--primary-color) !important;
+  background-color: #FFFFFF;
+  border: 1px solid var(--border-color);
+  border-radius: 999px;
+  box-shadow: 0 2px 8px rgba(0, 31, 63, 0.04);
+}
+
+.eyebrow-pill.eyebrow-accent {
+  color: #0F5132 !important;
+  border-color: rgba(21, 115, 71, 0.22);
+}
+
 .hero-subtitle {
   font-size: clamp(1.4rem, 2.2vw, 1.7rem); /* Reducido ~5px (aprox 1.65rem) */
   line-height: 1.4;
