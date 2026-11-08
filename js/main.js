@@ -1,6 +1,6 @@
 // =========================================================================
-// Google Analytics 4 (G-5H7RSFLJKP) — Eventos de Conversión del Funnel
-// La etiqueta oficial gtag.js está instalada en el <head> de cada página.
+// Google Tag (GTM-PH6ST5NK -> GA4 G-5H7RSFLJKP) — Eventos de Conversión
+// La etiqueta oficial de Google está instalada en el <head> de cada página.
 // =========================================================================
 
 // Navbar Scroll Effect + Tracking de Conversiones del Funnel
